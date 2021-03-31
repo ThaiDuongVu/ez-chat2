@@ -1,0 +1,78 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #222831;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.joinInput {
+  font-size: 1rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #00adb5;
+  border-width: 3px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.heading {
+  color: #eeeeee;
+  font-size: 3rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.joinButton {
+  color: #eeeeee !important;
+  text-decoration: none;
+  background: #00adb5;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 3px;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.joinButton:hover {
+  background: #393e46;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}

@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+}
+
+.input {
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 0 0 0 10px;
+  padding: 3%;
+  width: 100%;
+  font-size: 1.25rem;
+  background-color: #eeeeee;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  color: #eeeeee !important;
+  align-content: flex-end;
+  text-decoration: none;
+  background: #00adb5;
+  padding: 20px;
+  display: inline-block;
+  width: 20%;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-color: #eeeeee;
+  border-radius: 0 0 10px 0;
+  border-style: solid;
+  border-width: 2.5px;
+}
+
+.sendButton:hover {
+  background: #393e46;
+}
