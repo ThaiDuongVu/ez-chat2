@@ -25,11 +25,11 @@ ez-chat2 is [LIVE](https://ez-chat2.netlify.app/)!
 
 - Back-end:
 <img src="./images/node-logo.png" height=100>
-[<img src="./images/heroku-logo.png" height=70>](https://ez-chat2.herokuapp.com/)
+<img src="./images/heroku-logo.png" height=70>
 
 - Front-end:
 <img src="./images/react-logo.png" height=60> 
-[<img src="./images/netlify-logo.png" height=50>](https://ez-chat2.netlify.app/)
+<img src="./images/netlify-logo.png" height=50>
 
 ---
 
