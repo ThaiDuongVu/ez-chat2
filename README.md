@@ -5,11 +5,6 @@ Web application for chatting with friends and family.
 
 ---
 
-### Try it out
-ez-chat2 is [LIVE](https://ez-chat2.netlify.app/)!
-
----
-
 ### Features
 
 - Setting usernames.
